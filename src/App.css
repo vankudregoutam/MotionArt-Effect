@@ -334,9 +334,21 @@
   color: #EEE5FFB8;
 }
 
-.footer-flex {
+/* .footer-flex {
   margin-left: 80%;
   margin-top: -3%;
+} */
+
+.footer-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 6%;
+  margin-top: -3%;
+}
+
+.footer-flex .btn {
+  margin-left: 10px;
 }
 
 .footer-color {
@@ -378,7 +390,7 @@
   border-radius: 50%;
   pointer-events: none;
   opacity: 0.7;
-  background: radial-gradient(circle, rgba(255,255,255,0.5), rgba(0,0,0,0));
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0));
 }
 
 
@@ -396,105 +408,132 @@
   * {
     transition: all .3s ease;
   }
+
   .button-style {
     display: none;
   }
+
   .transform {
     width: 20%;
   }
+
   .motion-art-effect {
     width: 20%;
   }
+
   .visitor-attention {
     font-size: 40px;
     margin-top: -19%;
     margin-left: 30%;
     width: 50%;
   }
+
   .description {
     width: 55%;
     margin-left: 30%;
   }
+
   .motionart-effect {
     margin-left: 5%;
   }
+
   .rating {
     margin-top: 15%;
   }
+
   .card-style {
     width: 50%;
   }
+
   .card-style-1 {
     width: 50%;
     margin-left: 25%;
   }
+
   .visitors-heading {
     width: 50%;
     font-size: 30px;
     margin-top: 15%;
   }
+
   .visitors-description {
     width: 70%;
     font-size: 18px;
   }
+
   .purchase-button {
     width: 50%;
   }
+
   .stick {
     margin-top: -40%;
     height: 50%;
     margin-left: 65%;
   }
+
   .section {
     width: 50%;
     font-size: 30px;
     margin-top: 15%;
   }
+
   .card-section {
     width: 49%;
     margin-left: 0%;
   }
+
   .section-page-img {
     width: 100%;
   }
+
   .card-page {
     width: 49%;
     margin-left: 51%;
     margin-top: -51%;
   }
+
   .browser-description {
     width: 70%;
   }
+
   .browser {
     margin-top: 15%;
   }
+
   .features-heading {
     margin-top: 15%;
     width: 55%;
     font-size: 30px;
   }
+
   .features-description {
     width: 60%;
   }
+
   .features-card {
     width: 48%;
   }
+
   .features-card-interface {
     width: 97%;
     height: 50%;
   }
+
   .features-img-interface {
     margin-left: -15px;
   }
+
   .container-footer {
     height: 100px;
     margin-top: 15%;
   }
+
   .footer {
     margin-top: 30px;
     padding: 20px;
     margin-left: 23%;
   }
+
   .footer-flex {
     position: relative;
     margin-top: -15%;
@@ -506,22 +545,27 @@
   * {
     transition: all .3s ease;
   }
+
   body {
     width: auto;
   }
+
   .motionart-effect {
     margin-left: 0%;
   }
+
   .transform {
     width: 35%;
     text-align: center;
     margin-left: 30%;
   }
+
   .motion-art-effect {
     text-align: center;
     width: 49%;
     margin-left: 23%;
   }
+
   .visitor-attention {
     font-size: 35px;
     text-align: center;
@@ -529,6 +573,7 @@
     margin-top: 10%;
     margin-left: 7%;
   }
+
   .description {
     width: 100%;
     margin-left: 0%;
@@ -536,22 +581,27 @@
     text-align: center;
     font-size: 16px;
   }
+
   .button-style {
     display: none;
   }
+
   .rating {
     margin-top: 25%;
     font-size: 22px;
   }
+
   .card-style {
     justify-content: center;
     width: 100%;
     margin-left: 10%;
   }
+
   .card-style-1 {
     width: 100%;
     margin-left: 10%;
   }
+
   .visitors-heading {
     font-size: 25px;
     width: 70%;
@@ -559,6 +609,7 @@
     margin-left: 15%;
     margin-top: 15%;
   }
+
   .visitors-description {
     font-size: 16px;
     text-align: center;
@@ -566,100 +617,125 @@
     margin-left: 0%;
     margin-top: 5%;
   }
+
   .purchase-button {
     width: 90%;
     margin-top: 10%;
   }
+
   .stick {
     margin-left: 15%;
     margin-top: 10%;
     font-size: 20px
   }
+
   .section {
     margin-top: 25%;
     font-size: 25px;
     width: 90%;
   }
+
   .card-section {
     width: auto;
     margin-left: 0%;
     margin-top: 20%;
   }
+
   .section-headline {
     font-size: 20px;
     text-align: center;
   }
+
   .section-description {
     font-size: 16px;
     text-align: center;
     margin-top: 10%;
   }
+
   .card-page {
     width: auto;
     margin: 10% 0 0 0;
   }
+
   .page-headline {
     font-size: 20px;
     text-align: center;
   }
+
   .page-description {
     font-size: 16px;
     text-align: center;
     margin-top: 10%;
   }
+
   .section-page-img {
     width: 100%;
     margin-top: 10%;
   }
+
   .browser-heading {
     font-size: 20px;
     margin-top: 10%;
     width: 80%;
     margin-left: 10%;
   }
+
   .browser-description {
     font-size: 18px;
     width: 88%;
     margin-top: 10%;
   }
+
   .browser-img {
     width: 80%;
     margin-top: 10%;
     margin-bottom: 10%;
   }
+
   .features-heading {
     font-size: 25px;
     width: 100%;
     margin-top: 20%;
   }
+
   .features-description {
     font-size: 16px;
     width: 95%;
     margin-top: 10%;
   }
+
   .features-card {
     width: 90%;
     margin-left: 5%;
   }
+
   .features-card-interface {
     width: 90%;
     margin-left: 5%;
   }
+
   .features-img-heading {
     font-size: 20px;
   }
+
   .features-img-description {
     font-size: 16px;
   }
+
   .container-footer {
     margin-top: 2%;
     height: 100px;
   }
+
   .footer-flex {
     margin-left: 20%;
     margin-top: -20%;
+    display: flex;
+    justify-content: flex-start;
   }
+
   .footer {
     margin-top: 50px;
+    display: flex;
   }
 }
