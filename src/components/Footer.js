@@ -10,6 +10,7 @@ const Footer = () => {
                     <Link to='https://qodematrix.com/docs/motion-art-for-elementor/' target='_blank' className="btn footer-color">Documentation</Link>
                     <Link to='https://support.qodematrix.com/' target='_blank' className="btn footer-color">Support</Link>
                 </div>
+                <p className='spoiler'>Made by Goutam Vankudre 🤍</p>
             </div>
         </>
     )
