@@ -1,18 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -322,29 +307,22 @@
 
 .container-footer {
   background-image: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
-  margin-top: 9%;
-  padding: 10px;
-  height: auto;
+  margin-top: 15px;
+  padding: 20px;
 }
 
 .footer {
-  margin-top: 15px;
-  margin-left: 6%;
-  font-size: 14px;
+  margin: 0;
+  padding: 10px 0;
   color: #EEE5FFB8;
 }
 
-/* .footer-flex {
-  margin-left: 80%;
-  margin-top: -3%;
-} */
-
 .footer-flex {
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
-  margin-right: 6%;
-  margin-top: -3%;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: -40px;
 }
 
 .footer-flex .btn {
@@ -524,20 +502,16 @@
   }
 
   .container-footer {
-    height: 100px;
-    margin-top: 15%;
+    padding: 20px;
   }
 
   .footer {
-    margin-top: 30px;
-    padding: 20px;
-    margin-left: 23%;
+    padding: 10px 0;
   }
 
   .footer-flex {
-    position: relative;
-    margin-top: -15%;
-    margin-left: 33%;
+    flex-direction: row;
+    gap: 10px;
   }
 }
 
@@ -669,7 +643,7 @@
   }
 
   .section-page-img {
-    width: 100%;
+    width: auto;
     margin-top: 10%;
   }
 
@@ -723,19 +697,19 @@
   }
 
   .container-footer {
-    margin-top: 2%;
-    height: 100px;
-  }
-
-  .footer-flex {
-    margin-left: 20%;
-    margin-top: -20%;
-    display: flex;
-    justify-content: flex-start;
+    padding: 15px;
   }
 
   .footer {
-    margin-top: 50px;
+    text-align: center;
+    padding: 8px 0;
+  }
+
+  .footer-flex {
+    margin-top: -10px;
     display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
   }
 }
