@@ -5,7 +5,7 @@ const Intro = () => {
     return (
         <>
             <div className="container-fluid">
-                <Link to='/'><img className='motionart-effect' src="/img/MotionArtEffect-logo.png" alt="" /></Link>
+                <img className='motionart-effect' src="/img/MotionArtEffect-logo.png" alt="" />
                 <div className="button-flex">
                     <Link className='btn button-style' to='https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891' target='_blank'>Purchase Now</Link>
                 </div>
