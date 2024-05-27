@@ -317,6 +317,12 @@
   color: #EEE5FFB8;
 }
 
+.spoiler {
+  margin-top: -30px;
+  color: #EEE5FFB8;
+  text-align: center;
+}
+
 .footer-flex {
   display: flex;
   justify-content: flex-end;
@@ -507,6 +513,12 @@
 
   .footer {
     padding: 10px 0;
+  }
+
+  .spoiler {
+    margin-top: 10px;
+    color: #EEE5FFB8;
+    text-align: center;
   }
 
   .footer-flex {
@@ -705,8 +717,14 @@
     padding: 8px 0;
   }
 
+  .spoiler {
+    margin-top: 0px;
+    color: #EEE5FFB8;
+    text-align: center;
+  }
+
   .footer-flex {
-    margin-top: -10px;
+    margin-top: -5px;
     display: flex;
     gap: 10px;
     flex-direction: row;
