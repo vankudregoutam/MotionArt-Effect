@@ -31,6 +31,10 @@ Your app is ready to be deployed!
 
 ## Execution of the code
 
+### Link for live demo
+
+https://motion-art-effect-react.netlify.app/
+
 ![image](https://github.com/vankudregoutam/MotionArt-Effect/assets/79298277/32443ed6-e90a-4099-a500-b9bc0d4f2f99)
 
 https://github.com/vankudregoutam/MotionArt-Effect/assets/79298277/cc40b345-2d99-42d3-86f1-14ee5f96062b
